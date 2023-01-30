@@ -5,8 +5,6 @@ namespace ECToken3;
 use \AESGCM\AESGCM;
 use \ParagonIE\ConstantTime\Base64UrlSafe;
 
-require __DIR__ . '/../vendor/autoload.php';
-
 class Crypto {
 
   const IV_SIZE_BYTES = 12;
